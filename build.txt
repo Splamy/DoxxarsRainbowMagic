@@ -1,0 +1,3 @@
+displayName = Doxxar's Rainbow Magic
+author = Doxxar
+version = 0.1

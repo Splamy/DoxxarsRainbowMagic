@@ -1,0 +1,104 @@
+Mods: {
+	DoxxarsRainbowMagic: {
+		Items: {
+			RadiantRainbowRondure: {
+				DisplayName: Radiant Rainbow Rondure
+				Tooltip: Fires a ray of fabulous rainbow!
+			}
+
+			RainbowStorm: {
+				Tooltip: ""
+				DisplayName: Rainbow Storm
+			}
+
+			RainbowGemStaff: {
+				Tooltip: ""
+				DisplayName: Rainbow Gem Staff
+			}
+		}
+
+		Configs: {
+			DDHealthBar: {
+				ShowName: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.ShowName}"
+				}
+
+				ShowLife: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.ShowLife}"
+				}
+
+				ShowPercentage: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.ShowPercentage}"
+				}
+
+				ShowTarget: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.ShowTarget}"
+				}
+
+				DisplayName: "{$Mods.DDmod.Config.HealthBar}"
+			}
+
+			DDConfigServer: {
+				Swim: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.Swim}"
+				}
+
+				Somersault: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.Somersault}"
+				}
+
+				BossAnimation: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.BossAnimation}"
+				}
+
+				Staffdamage: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.Staffdamage}"
+				}
+
+				ForceMechanism: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.ForceMechanism}"
+				}
+
+				DisplayName: "{$Mods.DDmod.Config.ConfigServer}"
+			}
+
+			DDConfigClient: {
+				SlashEffect: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.SlashEffect}"
+				}
+
+				DustLightEffect: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.DustLightEffect}"
+				}
+
+				ItemID: {
+					Tooltip: ""
+					Label: "{$Mods.DDmod.Config.ItemID}"
+				}
+
+				DisplayName: "{$Mods.DDmod.Config.ConfigClient}"
+			}
+		}
+
+		Projectiles: {
+			RainbowStormProjectile.DisplayName: Rainbow Storm Projectile
+			RainbowGemProjectile.DisplayName: Rainbow Gem Projectile
+			RadiantRainbowRay.DisplayName: Radiant Rainbow Ray
+			DiamondStaff.DisplayName: Diamond Staff
+			BookofSkulls.DisplayName: Bookof Skulls
+		}
+
+		"Prefixes. .DisplayName": ""
+	}
+}
